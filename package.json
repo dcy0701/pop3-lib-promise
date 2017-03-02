@@ -1,0 +1,14 @@
+{
+  "name": "pop3-lib-promise",
+  "version": "1.0.0",
+  "description": "pop3-lib based by promise\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "poplib": "^0.1.7"
+  }
+}
