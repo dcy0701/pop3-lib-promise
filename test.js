@@ -18,7 +18,6 @@ async function run() {
     for (let id of [...Array(list[1]).keys()].reverse()) {
         let reponse = await client.retr(id + 1)
         console.log(reponse[2]);
-        await sleep(100000)
     }
 }
 run()
