@@ -4,11 +4,12 @@
 ```
 
 const { CreateClient } = require('./promise-pop')
+
 async function run() {
     const userProfile = {
         // recent模式，获取30天内全部的邮件信息
         mail: 'recent:chongyang1994@gmail.com',
-        password: 'memeda'
+        password: 'password:test'
     }
 
     const port = 995
