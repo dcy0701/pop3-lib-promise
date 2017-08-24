@@ -1,5 +1,5 @@
 # pop3-lib-promise
-pop3 promise
+一个通过POP3协议获取邮件的Promise封装
 ## example
 ```
 
