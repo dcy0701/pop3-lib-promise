@@ -3,7 +3,7 @@ POP3 agreements to get email list by Promise.
 
 ## install
 
-    `$ npm install pop3-lib-promise`
+    $ npm install pop3-lib-promise
 
 ## example
 ```
