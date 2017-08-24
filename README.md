@@ -1,5 +1,10 @@
 # pop3-lib-promise
-一个通过POP3协议获取邮件的Promise封装
+POP3 agreements to get email list by Promise.
+
+## install
+
+    `$ npm install pop3-lib-promise`
+
 ## example
 ```
 
