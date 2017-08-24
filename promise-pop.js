@@ -67,7 +67,7 @@ class Client {
 
 function runMethod(clientWrapper, methodname, ...arg) {
     return new Promise((resolve, reject) => {
-        (clientWrapper._client[methodname])(...arg)
+        clientWrapper._client[methodname](...arg)
         let cleanup = errorHandler(clientWrapper._client, reject)
         clientWrapper._client.on(methodname, (...rest) => {
             cleanup()
